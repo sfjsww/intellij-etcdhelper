@@ -12,6 +12,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * @author tsonglew
+ */
 public class EtcdClient {
 
     private static final byte[] NO_PREFIX_END = new byte[]{0};
@@ -19,6 +22,7 @@ public class EtcdClient {
     private KV kvClient;
     private Auth authClient;
     private Lease leaseClient;
+    public String[] endpoints;
 
     private static final boolean INIT = false;
 
@@ -175,6 +179,7 @@ public class EtcdClient {
     }
 
     public void init(String[] etcdUrls, String user, String password) {
+        this.endpoints = etcdUrls;
         ClientBuilder clientBuilder = Client.builder().endpoints(etcdUrls);
         if (user != null && password != null) {
             clientBuilder.user(bytesOf(user)).password(bytesOf(password));

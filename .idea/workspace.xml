@@ -5,29 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9a8e618-a218-46c2-a50b-ff9c008c8409" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.run/Run IDE with Plugin.run.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/tsonglew/etcdhelper/StartupApplicationComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/tsonglew/etcdhelper/action/PopupAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/tsonglew/etcdhelper/common/EtcdClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/tsonglew/etcdhelper/common/EtcdClientManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/tsonglew/etcdhelper/common/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/tsonglew/etcdhelper/dialog/EtcdKeyRangeDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/tsonglew/etcdhelper/dialog/EtcdListDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/pluginIcon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/tsonglew/etcdhelper/action/PopupAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/tsonglew/etcdhelper/action/PopupAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/tsonglew/etcdhelper/common/EtcdClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/tsonglew/etcdhelper/common/EtcdClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/tsonglew/etcdhelper/dialog/EtcdKeyRangeDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/tsonglew/etcdhelper/dialog/EtcdKeyRangeDialog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +141,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
-    "last_opened_file_path": "/Users/tsonglew/Downloads/etcdhelper/src/test/java",
+    "last_opened_file_path": "/Users/tsonglew/Documents/etcdhelper",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -186,6 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660471546094</updated>
       <workItem from="1660471547220" duration="12796000" />
+      <workItem from="1660491501454" duration="1013000" />
     </task>
     <servers />
   </component>

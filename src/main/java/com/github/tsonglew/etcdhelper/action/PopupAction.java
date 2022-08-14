@@ -17,9 +17,9 @@ public class PopupAction extends AnAction {
         var selectionModel = editor.getSelectionModel();
         var selectedText = selectionModel.getSelectedText();
         System.out.println(selectedText);
-        EtcdClientManager.addConn(selectedText);
+        var client = EtcdClientManager.addConn(selectedText);
 
-        var etcdKeyRangeDialog = new EtcdKeyRangeDialog();
+        var etcdKeyRangeDialog = new EtcdKeyRangeDialog(client);
         etcdKeyRangeDialog.show();
     }
 }
